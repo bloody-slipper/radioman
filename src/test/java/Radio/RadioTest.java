@@ -31,7 +31,6 @@ public class RadioTest {
 
     }
 
-
     @Test
     public void shouldNextRadioStationForMin() {
         Radio radio = new Radio();
@@ -59,6 +58,7 @@ public class RadioTest {
 
 
     }
+
     @Test
     public void shouldNextRadioStationAboveMax() {
         Radio radio = new Radio();
@@ -72,7 +72,6 @@ public class RadioTest {
         Assertions.assertEquals(expexted, actual);
 
     }
-
 
 
     @Test
@@ -102,6 +101,7 @@ public class RadioTest {
         Assertions.assertEquals(expexted, actual);
 
     }
+
     @Test
     public void shouldPrevRadioStationAboveMax() {
         Radio radio = new Radio();
@@ -185,6 +185,7 @@ public class RadioTest {
         Assertions.assertEquals(expexted, actual);
 
     }
+
     @Test
     public void shouldDecreaseVolumeForMin() {
         Radio radio = new Radio();
